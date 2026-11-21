@@ -174,7 +174,7 @@ watchfiles 1.3.0, tree = 241 directories / 2 000 files, `debounce=50`, `step=20`
 
 **Extrapolations (estimate, not measured):** at the observed 3 600 dirs/s registration rate, 20 000
 directories ≈ 5.5 s and 100 000 ≈ 28 s of startup registration. Watch memory per directory is
-*kernel* memory we did not measure — treat as unknown until T2 of the benchmark suite (§16) records
+*kernel* memory we did not measure — treat as unknown until the phase-3 benchmark harness records
 `/proc/meminfo`'s `SReclaimable`/slab delta across a registration of 100 000 watches.
 
 **Unverified, with the test that settles it:** behaviour when `max_user_watches` is exhausted

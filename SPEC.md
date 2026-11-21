@@ -240,7 +240,7 @@ Every task is sized for one `deepseek-v4.1-flash#max` session at ≤30 % context
 - **Watch out:** examples must not require network or a real project directory.
 
 **Not in this phase:** dashboard, SSE/WebSocket transport, Git diff module, agent attribution,
-benchmark suite (T9/phase 3), packaging wheels for release (phase 5).
+benchmark suite (`bench/`, phase 3), packaging wheels for release (phase 5).
 
 ---
 
