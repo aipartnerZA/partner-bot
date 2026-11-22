@@ -1,4 +1,4 @@
-# SPEC — Partner Bot, Phase 1 (FileMonitor v0.1)
+# Build Plan — Partner Bot, Phase 1 (FileMonitor v0.1)
 
 **Status:** planning complete, no code written. This file is both the phase plan and the progress
 ledger. Design authority is [`docs/specifications/file-monitor.md`](docs/specifications/file-monitor.md);

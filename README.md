@@ -5,7 +5,7 @@ several project workspaces and gives you one deliberately simple web UI: what ra
 what needs you.
 
 > **Status: design stage.** Nothing is runnable yet. Phase 1 (the FileMonitor core) is fully
-> specified and is being built task by task. See [`SPEC.md`](SPEC.md) for the live plan and
+> specified and is being built task by task. See [`BUILD-PLAN.md`](BUILD-PLAN.md) for the live plan and
 > [`docs/specifications/file-monitor.md`](docs/specifications/file-monitor.md) for the architecture.
 
 ## Why
@@ -50,7 +50,7 @@ pytest -q
 
 ```
 docs/specifications/file-monitor.md   architecture, researched and measured
-SPEC.md                               phase-1 plan, gates, progress ledger
+BUILD-PLAN.md                         phase-1 plan, gates, progress ledger
 partner_bot/file_monitor/             the component (phase 1)
 tests/                                unit, integration, concurrency, failure
 examples/                             runnable API examples

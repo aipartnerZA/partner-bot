@@ -2,7 +2,7 @@
 
 **Component:** `partner_bot.file_monitor`
 **Target release:** v0.1.0
-**Status:** Design approved for build. Phase-1 execution plan lives in [`/SPEC.md`](../../SPEC.md). Nothing in this document has been implemented yet.
+**Status:** Design approved for build. Phase-1 execution plan lives in [`BUILD-PLAN.md`](../../BUILD-PLAN.md). Nothing in this document has been implemented yet.
 **Owner:** Wes Bramwell (A.I Partner PTY LTD) · **Author:** Marty (Executive Assistant)
 **Date:** 2026-11-21
 
@@ -698,7 +698,7 @@ module users import.
 
 ## 19. Milestones
 
-Detail and gates: [`SPEC.md`](../../SPEC.md). Summary: P1 minimal core (this pass) → P2 shared
+Detail and gates: [`BUILD-PLAN.md`](../../BUILD-PLAN.md). Summary: P1 minimal core (this pass) → P2 shared
 resource management → P3 reliability/health/reconciliation → P4 platform + dashboard integration →
 P5 benchmark, tuning, open-source release. P1 already contains a single-backend, single-root,
 multi-subscriber slice with real reconciliation, because the guarantees in §9.3 are meaningless
